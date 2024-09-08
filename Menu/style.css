@@ -1,0 +1,103 @@
+body, h1, h2, p, table, td, th{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Roman, serif;
+}
+
+body{
+    background-color: #DDBC95;
+    color: #C60000;
+    line-height: 2;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px;
+    background: #B38867;
+    border-radius: 10px;
+    box-shadow:#fff;
+}
+
+h1{
+    text-align: center;
+    color: #FDFFFF;
+}
+
+h2{
+    color: #FDFFFF;
+    margin-bottom: 10px;
+} 
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+table, th, td{
+    border: 5px solid #ddd;
+    border-color: #452619;
+}
+
+th, td{
+    padding: 0px;
+    text-align: center;
+}
+
+th{
+    color: #FDFFFF;
+} 
+
+td img{
+    display: block;
+    margin: 0 auto;
+}
+
+hr{
+    margin: 20px 0;
+    border: 5px solid #3C1B09;
+    width: 110%;
+}
+
+footer{
+    background-color: #B38867;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    width: 113%;
+}
+
+footer form{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer input, footer select{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+footer input[type="password"]{
+    background-color: #FDFFFF;
+    color: #452619;
+}
+
+footer input[type="email"]{
+    background-color: #fff;
+    color: #333;
+}
+
+footer select{
+    background-color: #FDFFFF;
+    color: #C29B66;
+}
